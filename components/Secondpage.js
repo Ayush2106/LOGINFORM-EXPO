@@ -22,14 +22,9 @@ export default function Secondpage() {
         <Text style = {{fontSize:16 ,fontWeight:'small' , marginTop:15}}>Enter Your Phone Number</Text>
       </View>
       <View>
-    <TextInput
-    keyboardType='nueric'
-    />
+    
      <PhoneInput
-            // ref={phoneInput}
-            // defaultValue={value}
-            // defaultCode="DM"
-            // layout="first"
+      style={{marginLeft:"10%"}}
             />
       </View>
       <TouchableOpacity style ={styles.buttonStyle}>
